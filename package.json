@@ -5,9 +5,10 @@
   "type": "module",
   "homepage": "https://violeteisa.github.io/start-framework.js",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build" ,
+
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
